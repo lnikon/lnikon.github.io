@@ -30,16 +30,16 @@ Here are important facts about EC2 instances(hereafter instance) that you need t
   by the Amazon.
 
 * There several types of instances supported. All their differ in their configuration(vCPUs, Memory, Storage Type, Network Performance, IPv6 Support, etc...). The **only** instance type that is eligible for free tier is a `t2.micro`. During these notes this instance type will be used. It has
-** 1 vCPU
-** 1 GiB of Memory
-** EBS Storage(More on this later)
-** Low to Moderate Network Performace
-** IPv6 Support
+	* 1 vCPU
+	* 1 GiB of Memory
+	* EBS Storage(More on this later)
+	* Low to Moderate Network Performace
+	* IPv6 Support
 
 * During instance you can configure your instance options. The options that are under interest are the following:
-** Number of Instances
-** Subnet - You creating your instance in some Availability Zone(AZ)(e.g. eu-central-1) and usually 2 or more machines are being connected to the specific availability zone. So via `subnet` option you can select a specific machine.
-** More about options later...
+	* Number of Instances
+	* Subnet - You creating your instance in some Availability Zone(AZ)(e.g. eu-central-1) and usually 2 or more machines are being connected to the specific availability zone. So via `subnet` option you can select a specific machine.
+	* More about options later...
 
 * You can attach a storage to your instance.
 
