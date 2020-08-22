@@ -1,11 +1,14 @@
 # AWS EC2 Fundamentals Notes I
 
+This is first blog in a series designated to learning AWS and AWS Development using C++.
+Please refer to the [concepts](#Concepts) section for this note and see [Links](#Links)
+for additional information.
+
 # Concepts
 * [EC2 Instances](#EC2-Instances)
 * [IAM](#IAM)
 * [Security Groups](#Security-Groups)
 * [ENI](#ENI)
-* [Links](#Links)
 
 # EC2 Instances
 Amazon Elastic Compute(EC) provides a scalable computing approach on Amazon Web Services(AWS) cloud.
