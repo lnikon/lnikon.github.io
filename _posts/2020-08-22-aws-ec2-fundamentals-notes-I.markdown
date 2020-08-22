@@ -1,13 +1,13 @@
 # AWS EC2 Fundamentals Notes I
 
-## Concepts
-1. [EC2 Instances](##EC2-Instances)
-1. [IAM](##IAM)
-1. [Security Groups](##Security-Groups)
-1. [ENI](##ENI)
-1. [Links](#Links)
+# Concepts
+* [EC2 Instances](#EC2-Instances)
+* [IAM](#IAM)
+* [Security Groups](#Security-Groups)
+* [ENI](#ENI)
+* [Links](#Links)
 
-## EC2 Instances
+# EC2 Instances
 Amazon Elastic Compute(EC) provides a scalable computing approach on Amazon Web Services(AWS) cloud.
 EC2 instance represents a virtual computing envirnoment e.g. virtual machine.
 To create EC2 instance a several approaches can be used:
@@ -44,7 +44,7 @@ Here are important facts about EC2 instances(hereafter instance) that you need t
 
 * Also, at the final step when 'Launch' button being clicked you will be asked to create new key-pair or use an existing one by selecting it from list. The second option is appliable only when you have the .pem file. If you lost your .pem file then you can't connect to that instance.
 
-## IAM
+# IAM
 Identity and Access Management(IAM) is a security core of Aws. The whole security is here:
 	- Users
 	- Groups
@@ -59,15 +59,15 @@ You need to remember:
 	- IAM credentials should NEVER BE SHARED
 	- NEVER, ever, ever, ever write your IAM credentials in code. EVER.
 
-## Security Groups
+# Security Groups
 Security Group is a collection of inbound/outbound network rules.
 
-### Network Rules
+## Network Rules
 Two types network rules are supported:
 	- Inbound Network Rules - Describes which **incoming** network traffic should be acceppted. For example you can allow SSH over TCP on port 22 from the all sources.
 	- Outbound Network Rules - Describes which **outgoing** network traffic should be acceppted. Usually **all** outgoing network traffic is acceppted by **I'm not sure if it's secure**.
 
-## ENI
+# ENI
 Elastic Network Interface(ENI) is a logical component inside Virtual Private Network(VPC) that represents a **virtual network card**.
 Each ENI has the following parameters:
 	- Primate private IPv4 and one or more secondary private IPv4
