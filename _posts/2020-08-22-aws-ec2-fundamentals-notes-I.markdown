@@ -11,7 +11,7 @@ for additional information.
 * [ENI](#ENI)
 
 # EC2 Instances
-Amazon Elastic Compute(EC) provides a scalable computing approach on Amazon Web Services(AWS) cloud.
+Amazon Elastic Compute2(EC2) provides a scalable computing capabilty on Amazon Web Services(AWS) cloud.
 EC2 instance represents a virtual computing envirnoment e.g. virtual machine.
 To create EC2 instance a several approaches can be used:
 
@@ -19,7 +19,7 @@ To create EC2 instance a several approaches can be used:
 * Aws CLI tool
 * Programming Language Library e.g. Aws C++ SDK
 
-All these approaches will be covered in a future posts.
+All these approaches will be covered in the future posts.
 
 Here are important facts about EC2 instances(hereafter instance) that you need to remember:
 
@@ -53,7 +53,7 @@ Identity and Access Management(IAM) is a security core of Aws. The whole securit
 - Groups
 - Roles.
 
-At high level, **User - is a physical person** and every User should get an IAM. Groups is a collection of Users. Roles are only used for machines.
+At a high level, **User - is a physical person** and every User should get an IAM. Groups is a collection of Users. Roles are only used for machines.
 There are policies that are described in JSON.
 
 You need to remember:
