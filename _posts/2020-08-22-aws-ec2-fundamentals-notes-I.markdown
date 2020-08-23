@@ -66,7 +66,7 @@ You need to remember:
 Security Group is a collection of inbound/outbound network rules.
 
 ## Network Rules
-Two types network rules are supported:
+Two types of network rules are exists:
 - Inbound Network Rules - Describes which **incoming** network traffic should be acceppted. For example you can allow SSH over TCP on port 22 from the all sources.
 - Outbound Network Rules - Describes which **outgoing** network traffic should be acceppted. Usually **all** outgoing network traffic is acceppted by **I'm not sure if it's secure**.
 
